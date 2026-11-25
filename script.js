@@ -128,7 +128,7 @@ if (form) {
     const sujet = encodeURIComponent('Contact portfolio - ' + nom);
     const corps = encodeURIComponent(message + '\n\nDe : ' + nom + ' (' + email + ')');
     // Remplace par ton adresse email
-    window.location.href = 'mailto:TON_EMAIL@exemple.com?subject=' + sujet + '&body=' + corps;
+    window.location.href = 'mailto: https://www.linkedin.com/in/vladimir-zombr%C3%A9-b601b2440?subject=' + sujet + '&body=' + corps;
     document.getElementById('formMsg').textContent = '> Ouverture de votre messagerie...';
     form.reset();
   });
